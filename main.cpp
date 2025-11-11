@@ -40,9 +40,10 @@ cout << "the yearlevel is" << yearLevel << "the major of the student" << major <
 
 
 // ==================== Instructor Class Implementation ====================
-public:
-Person (string depart, int exp){
-dp
+public::
+Person (string depart, int expY){
+department=depart;
+experienceYears=expY
 void display ()
 
 
@@ -59,7 +60,7 @@ Student* students;
 int currentStudents;
 public:
 void addStudent (const Student& s) {
- currentStudents+=s;
+ students+=s;
 }
 void displayCourseInfo() {
 cout << "the courseCode is:" << courseCode << "the name of the course is " << courseName << endl;
