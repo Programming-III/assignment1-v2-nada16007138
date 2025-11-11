@@ -10,9 +10,9 @@ string name;
 int id;
 public:
 void display () {
-  cout << "name of person" << name << "with id" << id << endl;
-}
-
+ }
+};
+  
 
 
 
