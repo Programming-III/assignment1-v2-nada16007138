@@ -9,7 +9,14 @@
 using namespace std;
 
 // ==================== Person Class Implementation =========================
-
+class Person {
+private:
+string name;
+int id;
+public:
+void display () {
+cout << "name of person:" << name << "id:" << id << endl;
+};
 
 
 
@@ -19,7 +26,14 @@ using namespace std;
 
 // ==================== Student Class Implementation ====================
 
-
+class Student {
+private:
+int yearLevel;
+string major;
+public:
+void display () {
+cout << "the yearlevel is" << yearLevel << "the major of the student" << major << endl;
+};
 
 
 
